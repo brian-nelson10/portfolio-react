@@ -14,12 +14,6 @@ const background = {
   type: "Particle",
 };
 
-const section2title = "Objective";
-const about = {
-  paragraph:
-    "Full Stack Web Developer with a background in Executive Level Management and a life-long dedication to learning. Has ability to learn and collaborate in rapidly changing environments and compositions. Effective at combining creativity and problem solving to develop user-friendly applications. Eager to tackle web development/design challenges to achieve lasting impacts on user experience. Perfect balance of technical and managerial skills stands him apart from the crowd.",
-};
-
 const skillsBar = [
   {
     name: "HTML5",
@@ -61,7 +55,7 @@ const section3Title = "Projects";
 const projects = [
   {
     id: "project1",
-    name: "Project 1",
+    name: "Now We're Cookin'",
     skills: ["HTML, CSS, JS"],
     url: "",
   },
@@ -97,21 +91,19 @@ const projects = [
   },
 ];
 
-// Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
-// To get your own jotform link, go to https://formspree.io/
-// If you hacve the link already, paste it in the contactUrl below
-const section5Title = "Get in Touch";
+const section5Title = "Drop A Line.";
 const contact = {
   pitch:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-  copyright: "",
-  contactUrl: "",
+  copyright: "Brian Nelson",
+  contactUrl: "https://formspree.io/f/mbjbzvwl",
 };
 
 const social = {
   github: "https://github.com",
   instagram: "https://instagram.com",
   linkedin: "https://linkedin.com",
+  slack: "https://slack.com",
   resume: "https://novoresume.com/",
 };
 
@@ -119,13 +111,11 @@ export {
   animation,
   header,
   background,
-  about,
   skillsBar,
   skillsBar2,
   projects,
   contact,
   social,
-  section2title,
   section3Title,
   section5Title,
 };

@@ -5,7 +5,7 @@
 }
 /* Projects Photo */
 .project1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+one');
+    background-image: url('../components/assets/cards/0.png');
     cursor: none;    
 }
 .project2{
@@ -27,4 +27,7 @@
 .project6{
     background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
     cursor: none;
+}
+.gtp{
+    background-image: url('../components/assets/images/android-chrome-192x192.png');
 }

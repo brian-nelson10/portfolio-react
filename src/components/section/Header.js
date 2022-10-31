@@ -38,7 +38,7 @@ const Header = () => {
             </label>
             <HeaderButton/>
             </div>
-            <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src={"../../assets/images/apple-touch-icon.png"}></img>
+            <span id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp"></span>
         </div>
     )
     
