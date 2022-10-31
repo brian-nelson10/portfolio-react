@@ -32,6 +32,7 @@ button:focus {
   text-align: center;
   font-size: 5.5rem;
   position: absolute;
+
 }
 .Header p {
   margin-top: 125px;
@@ -117,9 +118,20 @@ button:focus {
   color: var(--primary-color);
   font-weight: 500;
 }
+li {
+  list-style: none;
+}
+.skillText {
+  font-family: Passion One;
+  font-size: 800%;
+}
+.lead {
+  font-family: Rock Salt;
+}
 .About-title-box {
   box-sizing: border-box;
-  width: 50%;
+  font-weight: 900;
+  font-family: Passion One;
   padding-bottom: 5px;
   border-bottom: solid 2px var(--primary-color);
   margin-bottom: 15px;
@@ -359,7 +371,6 @@ textarea:focus {
   padding: 5px 15px;
   padding-bottom: 7px;
   border-radius: 3px;
-  left: 44%;
   top: 90%;
 }
 .fa-eye {
@@ -367,7 +378,7 @@ textarea:focus {
   font-size: 20px;
   padding-top: 7px;
   padding-bottom: 7px;
-  padding-left: 15px;
+  padding-left: 7px;
   padding-right: 7px;
 }
 .see:active {
@@ -446,10 +457,11 @@ input:checked + .slider:before {
 }
 .anim-typewriter {
   animation: typewriter 4s steps(27) 1s 1 normal both,
-    blinkTextCursor 0.5s steps(27) infinite normal;
+    blinkTextCursor 0.8s steps(27) infinite normal;
 }
 .parallax {
-  background-image: url(https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  /* background-image: url(https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+  background-image: url(../components/assets/images/8160594.jpg);
 }
 @keyframes typewriter {
   from {

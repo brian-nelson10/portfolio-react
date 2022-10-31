@@ -15,7 +15,7 @@ const Header = () => {
     const toggleDarkMode = (e) =>  {
         document.documentElement.classList.toggle('dark-mode')
         document.getElementById('not-dark').classList.toggle('inverse-dark')
-        document.getElementById('not-dark2').classList.toggle('inverse-dark')
+    
         var x = document.getElementsByClassName('img-pro')
         for(let i = 0; i < x.length; i += 1) {
             x.item(i).classList.toggle("inverse-dark");
@@ -31,14 +31,14 @@ const Header = () => {
         <div>
             <div className="Header">
                 <h1>{ `${header.name}` }</h1>
-            <p className="line-1 anim-typewriter">and this is my portfolio... </p>
+            <p className="line-1 anim-typewriter type">here is my portfolio... </p>
             <label className="switch">
                 <input id="mode-switch" onClick={e => toggleDarkMode(e)} type="checkbox"/>
                 <span className="slider round"></span>
             </label>
             <HeaderButton/>
             </div>
-            <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src="profile.png"></img>
+            <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src={"../../assets/images/apple-touch-icon.png"}></img>
         </div>
     )
     

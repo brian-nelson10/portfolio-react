@@ -4,125 +4,96 @@ const animation = {
   animate: true,
   // animation playing duration
   duration: 750,
-  // if true, animation plays only once when element comes on screen
   once: false,
 };
-// Change your display name on tha landing display
+
 const header = {
   name: "Hi, I'm Brian Nelson",
 };
 const background = {
-  // Options: Snow or Particle
   type: "Particle",
 };
-// Write a para about yourself here
-// To update your image, go to './styles/images.css'
-const section2title = "About Me";
+
+const section2title = "Objective";
 const about = {
   paragraph:
     "Full Stack Web Developer with a background in Executive Level Management and a life-long dedication to learning. Has ability to learn and collaborate in rapidly changing environments and compositions. Effective at combining creativity and problem solving to develop user-friendly applications. Eager to tackle web development/design challenges to achieve lasting impacts on user experience. Perfect balance of technical and managerial skills stands him apart from the crowd.",
 };
-// Edit your skill and the percentage you know about it
-// To Add a skill, copy any one below and paste it after the last comma
+
 const skillsBar = [
   {
     name: "HTML5",
-    // To add a custom svg instead of font-awesome icons, add svg path below otherwise just comment it out
-    svg: "M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z",
     faClass: "fab fa-html5",
   },
   {
     name: "CSS3",
-    // svg: '',
     faClass: "fab fa-css3",
   },
   {
     name: "Javascript",
-    // svg: '',
     faClass: "fab fa-js",
   },
   {
-    name: "SASS",
-    // svg: '',
-    faClass: "fab fa-sass",
+    name: "React",
+    faClass: "fab fa-react",
   },
+];
+  const skillsBar2 = [
   {
     name: "Node",
-    // svg: '',
     faClass: "fab fa-node",
   },
   {
-    name: "Python",
-    // svg: '',
-    faClass: "fab fa-python",
+    name: "Express",
+    faClass: "fa fa-e",
   },
   {
-    name: "Java",
-    // svg: '',
-    faClass: "fab fa-java",
+    name: "MongoDB",
+    faClass: "fa fa-leaf",
   },
   {
-    name: "PHP",
-    // svg: '',
-    faClass: "fab fa-php",
-  },
-  {
-    name: "Database",
-    // svg: '',
-    faClass: "fas fa-database",
-  },
-  {
-    name: "AWS",
-    // svg: '',
-    faClass: "fab fa-aws",
+    name: "GitHub",
+    faClass: "fa fa-github",
   },
 ];
-// Edit your projects, its name, your skills used to make it, and the url.
-// You can omit freely anything if you dont have it
-// To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
-const section3Title = "Past Projects";
+
+const section3Title = "Projects";
 const projects = [
   {
-    // Add image in './styles/images.css' in #project1
     id: "project1",
     name: "Project 1",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: "",
   },
   {
-    // Add image in './styles/images.css' in #project2
     id: "project2",
     name: "Project 2",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: "",
   },
   {
-    // Add image in './styles/images.css' in #project3
     id: "project3",
     name: "Project 3",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: "",
   },
   {
-    // Add image in './styles/images.css' in #project4
     id: "project4",
     name: "Project 4",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: "",
   },
   {
-    // Add image in './styles/images.css' in #project5
     id: "project5",
     name: "Project 5",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: "",
   },
   {
-    // Add image in './styles/images.css' in #project6
     id: "project6",
     name: "Project 6",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: "",
   },
 ];
 
@@ -133,11 +104,10 @@ const section5Title = "Get in Touch";
 const contact = {
   pitch:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-  copyright: "Kaustubh Mishra",
+  copyright: "",
   contactUrl: "",
 };
-// Paste your respective social media links. You can omit any if you dont have it
-// Upload your resume in your drive, get the shaareable link and paste it in the resume section
+
 const social = {
   github: "https://github.com",
   instagram: "https://instagram.com",
@@ -151,6 +121,7 @@ export {
   background,
   about,
   skillsBar,
+  skillsBar2,
   projects,
   contact,
   social,
