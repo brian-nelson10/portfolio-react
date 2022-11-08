@@ -61,9 +61,9 @@ const projects = [
   },
   {
     id: "project2",
-    name: "Project 2",
-    skills: ["HTML, CSS, JS"],
-    url: "",
+    name: "React Portfolio",
+    skills: ["React.Js, CSS, JS"],
+    url: "https://brian-nelson10.github.io/react-portfolio/",
   },
   {
     id: "project3",
@@ -94,17 +94,16 @@ const projects = [
 const section5Title = "Drop A Line.";
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
+    "Currently seeking those who can provide eyeball time, brain juice, lines of code, code improvements, raising an issue, asking a question, run the communication outside of the code repo, or even stump up some coin. Lets talk, Collaborate, and grab some coffee.",
   copyright: "Brian Nelson",
   contactUrl: "https://formspree.io/f/mbjbzvwl",
 };
 
 const social = {
-  github: "https://github.com",
-  instagram: "https://instagram.com",
-  linkedin: "https://linkedin.com",
-  slack: "https://slack.com",
-  resume: "https://novoresume.com/",
+  github: "https://github.com/brian-nelson10",
+  instagram: "https://www.instagram.com/b_nel10/",
+  linkedin: "https://www.linkedin.com/in/brian-nelson-6b915b11a/",
+  resume: "src/components/assets/resume/brian.nelson.resume.pdf",
 };
 
 export {

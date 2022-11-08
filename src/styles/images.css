@@ -9,7 +9,7 @@
     cursor: none;    
 }
 .project2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+two');
+    background-image: url('../components/assets/cards/reactportfolio.png');
     cursor: none;
 }
 .project3{
