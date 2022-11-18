@@ -33,7 +33,6 @@ const Contact = () => {
                     {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}<br/>
                 </div>
                     {social.resume && <a title="Download Resume" href={social.resume} download><i className="fas fa-download"></i></a>}
-                   <div className="lead">Download Resume.</div> 
                 </div>
                 </div>
             </div>
