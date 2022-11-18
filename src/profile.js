@@ -61,14 +61,14 @@ const projects = [
   },
   {
     id: "project2",
-    name: "Project 2",
-    skills: ["HTML, CSS, JS"],
+    name: "React Portfolio",
+    skills: ["React, CSS, JS"],
     url: "",
   },
   {
     id: "project3",
-    name: "Project 3",
-    skills: ["HTML, CSS, JS"],
+    name: "code-it",
+    skills: ["MongoDB, Express, React, Node, GraphQL"],
     url: "",
   },
   {
