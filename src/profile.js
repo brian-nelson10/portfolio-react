@@ -57,19 +57,19 @@ const projects = [
     id: "project1",
     name: "Now We're Cookin'",
     skills: ["HTML, CSS, JS"],
-    url: "",
+    url: "https://kristafrancis.github.io/now-were-cookin/",
   },
   {
     id: "project2",
     name: "React Portfolio",
     skills: ["React, CSS, JS"],
-    url: "",
+    url: "http://brian-nelson10.github.io/react-portfolio",
   },
   {
     id: "project3",
     name: "code-it",
     skills: ["MongoDB, Express, React, Node, GraphQL"],
-    url: "",
+    url: "https://code--it.herokuapp.com/",
   },
   {
     id: "project4",
