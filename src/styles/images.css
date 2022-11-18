@@ -9,14 +9,14 @@
     cursor: none;    
 }
 .project2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+two');
+    background-image: url('../components/assets/cards/reactportfolio.png');
     cursor: none;
 }
 .project3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+three');
+    background-image: url('../components/assets/cards/code-it-screenshot.png');
     cursor: none;
 }
-.project4{
+/* .project4{
     background-image: url('https://via.placeholder.com/400x600.png?text=Project+four');
     cursor: none;
 }
@@ -27,7 +27,7 @@
 .project6{
     background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
     cursor: none;
-}
+} */
 .gtp{
     background-image: url('../components/assets/images/android-chrome-192x192.png');
 }
