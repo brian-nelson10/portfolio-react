@@ -5,29 +5,29 @@
 }
 /* Projects Photo */
 .project1{
-    background-image: url('../components/assets/cards/0.png');
+    background-image: url('../components/assets/cards/reactportfolio.png');
     cursor: none;    
 }
 .project2{
-    background-image: url('../components/assets/cards/reactportfolio.png');
+    background-image: url('../components/assets/cards/0.png');
     cursor: none;
 }
 .project3{
+    background-image: url('../components/assets/cards/toolScreenShot.png');
+    cursor: none;
+}
+ .project4{
     background-image: url('../components/assets/cards/code-it-screenshot.png');
     cursor: none;
 }
-/* .project4{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+four');
-    cursor: none;
-}
 .project5{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
+    background-image: url('../components/assets/cards/ohsnapShot.png');
     cursor: none;
 }
 .project6{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
+    background-image: url('../components/assets/cards/bn.png');
     cursor: none;
-} */
+} 
 .gtp{
     background-image: url('../components/assets/images/android-chrome-192x192.png');
 }

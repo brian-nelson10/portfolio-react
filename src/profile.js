@@ -55,39 +55,39 @@ const section3Title = "Projects";
 const projects = [
   {
     id: "project1",
-    name: "Now We're Cookin'",
-    skills: ["HTML, CSS, JS"],
-    url: "https://kristafrancis.github.io/now-were-cookin/",
-  },
-  {
-    id: "project2",
     name: "React Portfolio",
     skills: ["React, CSS, JS"],
     url: "http://brian-nelson10.github.io/react-portfolio",
   },
   {
+    id: "project2",
+    name: "Now We're Cookin'",
+    skills: ["HTML, CSS, JS"],
+    url: "https://kristafrancis.github.io/now-were-cookin/",
+  },
+  {
     id: "project3",
-    name: "code-it",
-    skills: ["MongoDB, Express, React, Node, GraphQL"],
-    url: "https://code--it.herokuapp.com/",
+    name: "ca-TOOL-ogue",
+    skills: ["MongoDB, Express, React, Node, Material-UI"],
+    url: "",
   },
   {
     id: "project4",
-    name: "Project 4",
-    skills: ["HTML, CSS, JS"],
-    url: "",
+    name: "code-it",
+    skills: ["MongoDB, Express, React, Node, GraphQL"],
+    url: "https://github.com/brian-nelson10/code-it",
   },
   {
     id: "project5",
-    name: "Project 5",
-    skills: ["HTML, CSS, JS"],
-    url: "",
+    name: "Oh-Snap!",
+    skills: ["React"],
+    url: "https://brian-nelson10.github.io/oh-snap/#about",
   },
   {
     id: "project6",
-    name: "Project 6",
-    skills: ["HTML, CSS, JS"],
-    url: "",
+    name: "The Missing Teeth Ecommerce Store",
+    skills: ["MongoDB, Express, React, Node, Material-UI (In-Progress)"],
+    url: "https://github.com/brian-nelson10/tmt-ecommerce-store",
   },
 ];
 
@@ -101,9 +101,9 @@ const contact = {
 
 const social = {
   github: "https://github.com/brian-nelson10",
-  slack: "https://slack.com",
+  instagram: "https://www.instagram.com/b_nel10/",
   linkedin: "http://linkedin.com/in/brian-nelson-6b915b11a",
-  resume: "../../assets/resume/brian.nelson.resume.pdf",
+  resume: "../../assets/resume/Resume2022.pdf",
 };
 
 export {
