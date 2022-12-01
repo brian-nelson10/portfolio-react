@@ -103,7 +103,7 @@ const social = {
   github: "https://github.com/brian-nelson10",
   instagram: "https://www.instagram.com/b_nel10/",
   linkedin: "http://linkedin.com/in/brian-nelson-6b915b11a",
-  resume: "../../assets/resume/Resume2022.pdf",
+  
 };
 
 export {
