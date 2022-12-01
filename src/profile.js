@@ -69,7 +69,7 @@ const projects = [
     id: "project3",
     name: "ca-TOOL-ogue",
     skills: ["MongoDB, Express, React, Node, Material-UI"],
-    url: "",
+    url: "https://github.com/brian-nelson10/ca-tool-ogue-6.0",
   },
   {
     id: "project4",
@@ -91,7 +91,7 @@ const projects = [
   },
 ];
 
-const section5Title = "Drop A Line.";
+const section5Title = "Reach Out.";
 const contact = {
   pitch:
     "Currently seeking those who can provide eyeball time, brain juice, lines of code, code improvements, raising an issue, asking a question, run the communication outside of the code repo, or just grab some coffee. ",
