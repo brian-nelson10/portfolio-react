@@ -86,7 +86,7 @@ const projects = [
   {
     id: "project6",
     name: "The Missing Teeth Ecommerce Store",
-    skills: ["MongoDB, Express, React, Node, Material-UI (In-Progress)"],
+    skills: ["MongoDB, Express, React, Node, GraphQL, Material-UI (In-Progress)"],
     url: "https://github.com/brian-nelson10/tmt-ecommerce-store",
   },
 ];
