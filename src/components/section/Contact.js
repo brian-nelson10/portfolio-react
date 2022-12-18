@@ -1,6 +1,6 @@
 import React from 'react'
 import { contact, section5Title, social } from '../../profile'
-import Resume from "../assets/resume/Resume2022.pdf"
+import Resume from "../assets/resume/Brian.Nelson.pdf"
 
 const Contact = () => {
     

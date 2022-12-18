@@ -55,14 +55,14 @@ const section3Title = "Projects";
 const projects = [
   {
     id: "project1",
-    name: "React Portfolio",
-    skills: ["React, CSS, JS"],
-    url: "http://brian-nelson10.github.io/react-portfolio",
+    name: "The Missing Teeth Ecommerce Store",
+    skills: ["MongoDB, Express, React, Node, GraphQL, Material-UI"],
+    url: "https://github.com/brian-nelson10/tmt-ecommerce-store",
   },
   {
     id: "project2",
     name: "Now We're Cookin'",
-    skills: ["HTML, CSS, JS"],
+    skills: ["HTML, CSS, JS, Materialize"],
     url: "https://kristafrancis.github.io/now-were-cookin/",
   },
   {
@@ -73,9 +73,9 @@ const projects = [
   },
   {
     id: "project4",
-    name: "code-it",
-    skills: ["MongoDB, Express, React, Node, GraphQL"],
-    url: "https://github.com/brian-nelson10/code-it",
+    name: "React Portfolio",
+    skills: ["React, CSS, JS, Bootstrap"],
+    url: "http://brian-nelson10.github.io/react-portfolio",
   },
   {
     id: "project5",
@@ -85,9 +85,9 @@ const projects = [
   },
   {
     id: "project6",
-    name: "The Missing Teeth Ecommerce Store",
-    skills: ["MongoDB, Express, React, Node, GraphQL, Material-UI (In-Progress)"],
-    url: "https://github.com/brian-nelson10/tmt-ecommerce-store",
+    name: "code-it",
+    skills: ["MongoDB, Express, React, Node, GraphQL, Bootstrap"],
+    url: "https://github.com/brian-nelson10/code-it",
   },
 ];
 
