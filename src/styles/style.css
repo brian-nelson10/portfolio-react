@@ -210,7 +210,7 @@ li {
   transition: all 0.5s;
 }
 .image-project:hover .img-pro {
-  transform: scale(-1.2);
+  transform: scale(1);
 }
 .pp-head {
   text-align: center;
