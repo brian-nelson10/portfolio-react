@@ -4,7 +4,7 @@
     background-image: url('../../src/components/assets/images/IMG_1560.png');
 }
 /* Projects Photo */
-.project1{
+.project4{
     background-image: url('../components/assets/cards/reactportfolio.png');
     cursor: none;    
 }
@@ -16,7 +16,7 @@
     background-image: url('../components/assets/cards/toolScreenShot.png');
     cursor: none;
 }
- .project4{
+ .project6{
     background-image: url('../components/assets/cards/code-it-screenshot.png');
     cursor: none;
 }
@@ -24,7 +24,7 @@
     background-image: url('../components/assets/cards/ohsnapShot.png');
     cursor: none;
 }
-.project6{
+.project1{
     background-image: url('../components/assets/cards/tmtScreenShot.png');
     cursor: none;
 } 
